@@ -1,0 +1,26 @@
+title: Grok 中文使用指南
+description: Grok 中文使用指南：会员价格和套餐区别、使用限制、Grok Bot 教程、Cursor 和 ChatGPT 对比、常见问题，全部对照官方页面核对。
+url: https://li13203140613.github.io
+baseurl: /grok-guide-zh
+lang: zh-CN
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+plugins:
+  - jekyll-sitemap
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: false
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+exclude:
+  - README.md
+  - LICENSE
+  - .notes
+  - Gemfile
+  - Gemfile.lock
